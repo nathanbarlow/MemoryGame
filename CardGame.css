@@ -145,8 +145,11 @@ button:hover {
 }
 
 .front, .back {
-	border-style: solid;
 	backface-visibility: hidden;
+	/* for Safari */
+	-webkit-backface-visibility: hidden;
+	
+	border-style: solid;
 	position: absolute;
 	left: 0;
 	top: 0;
