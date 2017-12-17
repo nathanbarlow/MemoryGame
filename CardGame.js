@@ -14,6 +14,12 @@ $( document ).ready(function(){
   //flip card on click
   cardFlipProcedure();
 
+
+  //setup initial rotation on cards. fixes chrome rotation issues
+  $(".card").transition({
+     rotateY: 0,
+  });
+
   //scale card on mouseover
   $('.card').mouseover(function() {
     $(this).transition({
