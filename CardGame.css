@@ -30,7 +30,9 @@ button {
 	text-align: center;
 	background-color: #d5d5d5;
 	font-size: 14px;
-	border-radius: 5px;
+	border-radius: 3px;
+	padding: 3px 10px 3px 10px;
+	cursor: pointer;
 }
 
 button:hover {
