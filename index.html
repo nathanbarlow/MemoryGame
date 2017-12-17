@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>MemoryGame</title>
+		<link rel="stylesheet" href="CardGame.css">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="jquery.transit.js"></script>
+		<script src="CardGame.js"></script>
+	</head>
+	<body>
+		<div id="bannerShading"> <!-- Start of WinBanner -->
+				<div id="bannerBox">
+					<h1>Congratulations!</h1>
+					<div id="scoreBox">
+						<div class="bannerBoxText">Your Score was:</div>
+						<div id="scoreDiv"></div>
+					</div>
+					<div id="timeBox">
+						<div class="bannerBoxText">Your time was:</div>
+						<div id="timeDiv"></div>
+					</div>
+					<div id="movesBox">
+						<div class="bannerBoxText">It took you:</div>
+						<div id="turnsDiv"></div>
+					</div>
+					<div id="buttonBox">
+						<button class="resetButton">Play Again!</button>
+					</div>
+				</div>
+		</div>
+
+		<div id="controlPanel"> <!-- Start of top control panel -->
+			<h1 id="pageTitle">Animal Mayhem</h1>
+			<div id="controls">
+				<div id="timerBox">
+					<span id="timer">0</span>
+					<span>seconds</span>
+				</div>
+				<div id="starScore">
+					<img id="star1" class="star" src="Images/happyStar.png" alt="star">
+					<img id="star2" class="star" src="Images/happyStar.png" alt="star">
+					<img id="star3" class="star" src="Images/happyStar.png" alt="star">
+				</div>
+				<div id="moveContainer">
+					<span id="moveCount">0</span>
+					<span>moves</span>
+				</div>
+				<button class="resetButton">Reset!</button>
+			</div>
+		</div>
+
+		<div id="grid"> <!-- Start of cards -->
+			<div class="row">
+				<div class="cell col1">
+					<div class="card">
+						<div class="front"></div>
+						<div class="back"></div>
+					</div>
+				</div>
+				<div class="cell col2">
+					<div class="card">
+						<div class="front"></div>
+						<div class="back"></div>
+					</div>
+				</div>
+				<div class="cell col3">
+					<div class="card">
+						<div class="front"></div>
+						<div class="back"></div>
+					</div>
+				</div>
+				<div class="cell col4">
+					<div class="card">
+						<div class="front"></div>
+						<div class="back"></div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="cell col1">
+					<div class="card">
+						<div class="front"></div>
+						<div class="back"></div>
+					</div>
+				</div>
+				<div class="cell col2">
+					<div class="card">
+						<div class="front"></div>
+						<div class="back"></div>
+					</div>
+				</div>
+				<div class="cell col3">
+					<div class="card">
+						<div class="front"></div>
+						<div class="back"></div>
+					</div>
+				</div>
+				<div class="cell col4">
+					<div class="card">
+						<div class="front"></div>
+						<div class="back"></div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="cell col1">
+					<div class="card">
+						<div class="front"></div>
+						<div class="back"></div>
+					</div>
+				</div>
+				<div class="cell col2">
+					<div class="card">
+						<div class="front"></div>
+						<div class="back"></div>
+					</div>
+				</div>
+				<div class="cell col3">
+					<div class="card">
+						<div class="front"></div>
+						<div class="back"></div>
+					</div>
+				</div>
+				<div class="cell col4">
+					<div class="card">
+						<div class="front"></div>
+						<div class="back"></div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="cell col1">
+					<div class="card">
+						<div class="front"></div>
+						<div class="back"></div>
+					</div>
+				</div>
+				<div class="cell col2">
+					<div class="card">
+						<div class="front"></div>
+						<div class="back"></div>
+					</div>
+				</div>
+				<div class="cell col3">
+					<div class="card">
+						<div class="front"></div>
+						<div class="back"></div>
+					</div>
+				</div>
+				<div class="cell col4">
+					<div class="card">
+						<div class="front"></div>
+						<div class="back"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
