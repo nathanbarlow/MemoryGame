@@ -11,6 +11,5 @@ Click the webpage link in the main page of this repository open the game hosted 
 ## Requirements
 This games uses jQuery and 
 
-## How to Play
 
-## How to Edit
+
