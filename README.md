@@ -13,8 +13,7 @@ Click the webpage link in the main page of this repository or the link bellow to
 ## Requirements
 This games uses jQuery which is linked to in the index.html file on line 
 
-This game also uses jQuery.transit which is one of the files included in the repository.  
-For more information on jQuerty.transit see the following:
+This game also uses jQuery.transit which is one of the files included in the repository. For more information on jQuerty.transit see the following:
  * http://ricostacruz.com/jquery.transit
  * http://github.com/rstacruz/jquery.transit
 
