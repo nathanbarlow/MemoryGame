@@ -30,7 +30,9 @@ button {
 	text-align: center;
 	background-color: #d5d5d5;
 	font-size: 14px;
-	border-radius: 5px;
+	border-radius: 3px;
+	padding: 3px 10px 3px 10px;
+	cursor: pointer;
 }
 
 button:hover {
@@ -43,6 +45,7 @@ button:hover {
 
 .star {
 	width: 30px;
+	height: 30px;
 }
 
 /* -------- Css for WinBanner --------*/
@@ -142,8 +145,11 @@ button:hover {
 }
 
 .front, .back {
-	border-style: solid;
 	backface-visibility: hidden;
+	/* for Safari */
+	-webkit-backface-visibility: hidden;
+	
+	border-style: solid;
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -184,5 +190,8 @@ button:hover {
 /* -------- Page Background CSS --------*/
 
 body {
-	background: linear-gradient(white, #cccbc6)
+	background: linear-gradient(white, #cccbc6);
+	position: absolute;
+	width: 100%;
+	height: 100%;
 }
