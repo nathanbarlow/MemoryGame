@@ -46,7 +46,6 @@ $( document ).ready(function(){
 
 function assignCards() {
   //randomly assign letter to card back content
-  //https://image.flaticon.com/sprites/new_packs/194176-animals.png
   var cardBacks = [
     '<img src="Images/card1.png" alt="dog" class="animalImage">',
     '<img src="Images/card2.png" alt="bee" class="animalImage">',
