@@ -7,7 +7,8 @@ all the matches in as few moves as possible.
 Download the repository and open the index.html file with a browser.
 
 ### Option 2 (easier)
-Click the webpage link in the main page of this repository open the game hosted using Git-Pages!
+Click the webpage link in the main page of this repository or the link bellow to open the game hosted using Git-Pages!
+* https://nathanbarlow.github.io/MemoryGame/
 
 ## Requirements
 This games uses jQuery which is linked to in the index.html file on line 
